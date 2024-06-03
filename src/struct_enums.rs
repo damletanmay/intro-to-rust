@@ -50,7 +50,7 @@ fn explaination() {
                     println!("{} says Hey I'm A Parrot!", name);
                 }
                 Self::Crow { name } => {
-                    println!("Crow {} sees all that you do", name)
+                    println!("Crow {} sees all that you do.", name)
                 }
                 Self::Cat => {
                     println!("Your Cat *Ignores*");
@@ -104,7 +104,7 @@ fn explaination() {
     }
 
     let odin_pet_1: Option<Creatures> = Creatures::new("crow".to_string(), "Huginn".to_string());
-    let odin_pet_2 = Creatures::new("crow".to_string(), "Muninn".to_string());
+    let odin_pet_2: Option<Creatures> = Creatures::new("crow".to_string(), "Muninn".to_string());
     let mut odin_pets: Vec<Creatures> = vec![];
 
     match odin_pet_1 {
@@ -165,7 +165,7 @@ fn explaination() {
     // leave_space();
 
     // TODO: Make a God called kratos using new method and he should have
-    // 2 wolfs called Speki and svenna,
+    // 2 wolfs called Speki and Svenna,
     // 2 weapons - Leviathan Axe & Blades of Chaos
     // print kratos
 

@@ -122,13 +122,13 @@ fn loops() {
 }
 
 fn exercise() {
-    // TODO: Create a vector of str type,
+    // TODO: Create a integer varaible and change it's value at a later statement
+    // transfer that value to another variable and print both values
+    // Shadow that variable with a String and transfer that to another variable
+    // Try to Print both Strings
+
+    // TODO: Create a vector of str types, add any 5 strs in them
     // interate in them using variable_name.iter() function and print all elements
 
-    let x = vec!["str", "ts"];
-
-    for i in x.iter() {
-        println!("{}", i);
-    }
     leave_space();
 }
